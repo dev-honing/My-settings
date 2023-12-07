@@ -110,7 +110,7 @@
                 }
             }
         ],
-        "comments": { "foreground": "#a494d99f" },
+        "comments": { "foreground": "#a494d9e0" },
     },
     "workbench.colorTheme": "One Monokai",
     "editor.indentSize": "tabSize",
@@ -135,6 +135,7 @@
     "workbench.productIconTheme": "fluent-icons",
     "editor.fontVariations": false,
     "json.schemas": [
+    
 
 
     ],
@@ -142,5 +143,21 @@
 
     ],
     "bracketLens.color": "#62576a",
-    "bracketLens.line": "start-line-number"
+    "bracketLens.line": "start-line-number",
+    "git.showPushSuccessNotification": true,
+    "launch": {
+        
+        "configurations": [],
+        "compounds": []
+    },
+    "extensions.ignoreRecommendations": true,
+    "cSpell.ignoreWords": [
+        "Honyeong",
+        "janbari"
+    ],
+    "cSpell.userWords": [
+        "Byeon",
+        "Eunjeong",
+        "Seungmin"
+    ]
     }
