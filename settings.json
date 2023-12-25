@@ -72,7 +72,6 @@
     
     },
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1,
     "liveServer.settings.donotVerifyTags": true,
     "workbench.editor.empty.hint": "hidden",
     "editor.tokenColorCustomizations": {
@@ -86,7 +85,8 @@
             {
                 "scope": "variable.parameter",
                 "settings": {
-                    "foreground": "#eb912b"
+                    "foreground": "#eb912b",
+                    "fontStyle": "italic"
                 }
             },
             {
@@ -110,7 +110,7 @@
                 }
             }
         ],
-        "comments": { "foreground": "#a494d9e0" },
+        "comments": { "foreground": "#a494d99f" },
     },
     "workbench.colorTheme": "One Monokai",
     "editor.indentSize": "tabSize",
@@ -128,36 +128,25 @@
             "query": "state:open repo:${owner}/${repository} sort:updated-desc"
         }
     ],
-    "workbench.iconTheme": "icons",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "eslint.format.enable": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "workbench.productIconTheme": "fluent-icons",
-    "editor.fontVariations": false,
-    "json.schemas": [
-    
-
-
-    ],
-    "settingsSync.ignoredSettings": [
-
-    ],
-    "bracketLens.color": "#62576a",
-    "bracketLens.line": "start-line-number",
-    "git.showPushSuccessNotification": true,
-    "launch": {
-        
-        "configurations": [],
-        "compounds": []
-    },
-    "extensions.ignoreRecommendations": true,
-    "cSpell.ignoreWords": [
-        "Honyeong",
-        "janbari"
-    ],
+    "terminal.integrated.env.windows": {},
     "cSpell.userWords": [
-        "Byeon",
-        "Eunjeong",
-        "Seungmin"
-    ]
+        "clsx",
+        "heroicons",
+        "Lusitana",
+        "Monokai",
+        "nextjs",
+        "palenight",
+        "sidenav",
+        "tailwindcss",
+        "todohighlight"
+    ],
+    "console-ninja.featureSet": "Community",
+    "json.schemas": [
+        
+
+    ],
+    "workbench.iconTheme": "eq-material-theme-icons-palenight"
     }
