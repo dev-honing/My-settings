@@ -1,7 +1,9 @@
 {
     "files.autoSave": "onFocusChange",
-    "editor.tabSize": 2,
     "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    }, 
     "diffEditor.wordWrap": "on",
     "git.openRepositoryInParentFolders": "always",
     "highlight.regexes": {
@@ -9,14 +11,13 @@
             "filterFileRegex": ".*(?<!CHANGELOG.md)$",
             "decorations": [
                 {
-                    "overviewRulerColor": "#ffcc00",
-                    "backgroundColor": "#ffcc00",
+                    "backgroundColor": "#f6f495",
                     "color": "#1f1f1f",
                     "fontWeight": "bold"
                 },
                 {
-                    "backgroundColor": "#ffcc00",
-                    "color": "#1f1f1f"
+                    "backgroundColor": "#f6f495",
+                    "color": "#1f1f1f",
                 }
             ]
         },
@@ -112,7 +113,6 @@
         ],
         "comments": { "foreground": "#a494d99f" },
     },
-    "workbench.colorTheme": "One Monokai",
     "editor.indentSize": "tabSize",
     "githubIssues.queries": [
         {
@@ -133,20 +133,60 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
     "terminal.integrated.env.windows": {},
     "cSpell.userWords": [
+        "adroot",
         "clsx",
+        "datetime",
+        "forteam",
         "heroicons",
+        "jjanbari",
+        "kusawuiwxh",
         "Lusitana",
         "Monokai",
+        "Mypage",
         "nextjs",
         "palenight",
+        "qwer",
         "sidenav",
+        "Signup",
+        "tableproducts",
         "tailwindcss",
-        "todohighlight"
+        "todohighlight",
+        "webfonts"
     ],
     "console-ninja.featureSet": "Community",
     "json.schemas": [
+    
+
+
+    
         
 
     ],
-    "workbench.iconTheme": "eq-material-theme-icons-palenight"
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "workbench.colorTheme": "One Monokai",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "aws.suppressPrompts": {
+        "fileViewerEdit": true,
+        "codeWhispererConnectionExpired": true
+    },
+    "terminal.integrated.stickyScroll.enabled": true,
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "custom-dictionary-user",
+            "path": "~/.cspell/custom-dictionary-user.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "editor.tabSize": 2,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "console-ninja.warnOnNoToolsDetected": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "github.copilot.advanced": {
+        
+    }
     }
